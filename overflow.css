@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+/* common box style*/
+.box{
+    width:250px;
+    height: 150px;
+    border:2px solid blueviolet;
+    margin: 20px 0;
+    padding:10px;
+    background-color: lightcoral;
+}
+/* different overflow example*/
+.visible{
+    overflow: visible;/*default*/
+}
+.hidden{
+    overflow: hidden;
+}
+.scroll{
+    overflow: scroll;
+}
+.auto{
+    overflow: auto;
+}
+
